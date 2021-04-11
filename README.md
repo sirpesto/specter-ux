@@ -1,11 +1,15 @@
-# Specter UX: Initial State (1.3.0)
+# Specter UX
+
+Reviewing the current software development and workspace of [Specter Desktop](https://github.com/cryptoadvance/specter-desktop) (v1.3.0).
 
 ## Definition
+
 multi-wallet, multi-device coordination tool
 All the setups / configurations, one interface: your personal perspective (of ownership) of the bitcoin network
 Difference to Electrum: single wallet, multi-device interface
 
 ## Genereal Problems
+
 UX is complementary to sercurity ("never lose your funds")
 Incomplete navigation: no back buttons in multi-step processes
 setup needs hardware device(s), path dependent and therefore preparation or no immidiate start possible
@@ -32,7 +36,7 @@ general UX flow: are or should devices already configured?
 
 "Multisig is better for larg-ish amounts." 
 - subjective
-- trade-offs (https://github.com/cryptoadvance/specter-desktop/blob/master/docs/multisig-security-tradeoffs.md)
+- [trade-offs](https://github.com/cryptoadvance/specter-desktop/blob/master/docs/multisig-security-tradeoffs.md)
 - requirements, existing hardware?
 - where or how do people learn about their individual setup configuration?
 
@@ -68,3 +72,18 @@ general UX flow: are or should devices already configured?
 
 [link formatting](https://github.com/cryptoadvance/specter-desktop/discussions/1099)
 
+
+
+## Setups
+
+- Local Bitcoin Core (pruned / fullnode) + Local Specter
+- Remote Bitcoin Core (pruned / fullnode) + Local Specter
+- Remote Bitcoin Core (pruned / fullnode) + Remode Specter
+
+differences between local and public network? Tor / fullnode setup 
+
+
+
+## Notes
+
+how to buid confidence / trust in the setup? > verify that it actually works, restore from backup in onboarding, guranteed backup?
