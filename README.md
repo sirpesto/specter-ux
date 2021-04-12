@@ -1,8 +1,8 @@
 # Specter UX
 
-Reviewing the current software development and workspace of [Specter Desktop](https://github.com/cryptoadvance/specter-desktop) (v1.3.0).
-
 ## Definition
+
+Reviewing the current software development and workspace of [Specter Desktop](https://github.com/cryptoadvance/specter-desktop) (v1.3.0).
 
 multi-wallet, multi-device coordination tool
 All the setups / configurations, one interface: your personal perspective (of ownership) of the bitcoin network
